@@ -147,6 +147,10 @@ body {
   padding: 15px 0px;
   border: 1px solid #eeeeee;
 }
+.form input:focus {
+  outline: none;
+  border-left: 4px solid #3698fb;
+}
 
 /* радио кнопки */
 .investor-type {
@@ -172,7 +176,6 @@ legend {
   gap: 6px;
   position: relative;
   margin: 20px 0px;
-  
 }
 
 .info-text {
